@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText( this.getApplicationContext(), "Este es mi primer porgrama en andriod estudio con java",Toast.LENGTH_LONG).show();
                 break;
             case R.id.btnSalir:
+                System.exit(0);
                 break;
         }
     }
